@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="gcm_defaultSenderId" translatable="false">158165921858</string>
+    <string name="google_api_key" translatable="false">AIzaSyD9X5RI9fv_X4qybqo9F1L4QK2fIkzN7uE</string>
+    <string name="google_app_id" translatable="false">1:158165921858:android:b515d40d8bb7e2d4063ddb</string>
+    <string name="google_crash_reporting_api_key" translatable="false">AIzaSyD9X5RI9fv_X4qybqo9F1L4QK2fIkzN7uE</string>
+    <string name="google_storage_bucket" translatable="false">butunleme-5e92d.appspot.com</string>
+    <string name="project_id" translatable="false">butunleme-5e92d</string>
+</resources>
