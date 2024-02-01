@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/nav_hakkinda">
+
+    <fragment
+        android:id="@+id/nav_fotograf_ekle"
+        android:name="com.example.butunleme.ui.fotografekle.FotografekleFragment"
+        android:label="Fotoğraf Ekle"
+        tools:layout="@layout/fragment_fotografekle" />
+
+    <fragment
+        android:id="@+id/nav_etiket_ekle"
+        android:name="com.example.butunleme.ui.etiketekle.EtiketekleFragment"
+        android:label="Etiket Ekle"
+        tools:layout="@layout/fragment_etiketekle" />
+
+    <fragment
+        android:id="@+id/nav_galeri"
+        android:name="com.example.butunleme.ui.galeri.GaleriFragment"
+        android:label="Galeri"
+        tools:layout="@layout/fragment_galeri" />
+
+    <fragment
+        android:id="@+id/nav_hakkinda"
+        android:name="com.example.butunleme.ui.hakkinda.HakkindaFragment"
+        android:label="Hakkında"
+        tools:layout="@layout/fragment_hakkinda" />
+    <fragment
+        android:id="@+id/nav_cikis_yap"
+        android:name="com.example.butunleme.ui.cikisyap.CikisyapFragment"
+        android:label="Çıkış Yap"
+        tools:layout="@layout/fragment_cikisyap" />
+</navigation>

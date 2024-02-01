@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".KayitOl">
+
+    <TextView
+        android:id="@+id/textView12"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="163dp"
+        android:layout_marginTop="52dp"
+        android:text="Kayıt Ol"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="25dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/isim"
+        android:layout_width="154dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="133dp"
+        android:ems="10"
+        android:hint="İsim"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/soyisim"
+        android:layout_width="154dp"
+        android:layout_height="43dp"
+        android:layout_marginStart="220dp"
+        android:layout_marginTop="133dp"
+        android:ems="10"
+        android:hint="Soyisim"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="214dp"
+        android:ems="10"
+        android:hint="E-Mail"
+        android:inputType="text"
+        android:text=""
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/kayitol"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="158dp"
+        android:layout_marginTop="377dp"
+        android:text="Kayıt Ol"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="449dp"
+        android:text="Hesabın varsa"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="30dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/girisyap"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="161dp"
+        android:layout_marginTop="501dp"
+        android:text="Giriş Yap"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <EditText
+        android:id="@+id/sifre"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="107dp"
+        android:layout_marginTop="284dp"
+        android:ems="10"
+        android:hint="Şifre"
+        android:inputType="textPassword"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

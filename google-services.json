@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "158165921858",
+    "project_id": "butunleme-5e92d",
+    "storage_bucket": "butunleme-5e92d.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:158165921858:android:b515d40d8bb7e2d4063ddb",
+        "android_client_info": {
+          "package_name": "com.example.butunleme"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD9X5RI9fv_X4qybqo9F1L4QK2fIkzN7uE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
